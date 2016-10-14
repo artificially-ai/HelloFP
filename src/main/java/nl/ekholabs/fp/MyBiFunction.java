@@ -22,8 +22,8 @@ public class MyBiFunction {
   public void biFunctionExercise1() {
     // Given two strings concatenate them
     // TODO: Complete the BiFunction by replacing ???s
-//    BiFunction<???> concat = ??? -> s1 + s2;
-//    out.println(concat.apply("hello", " world!"));
+    BiFunction<String, String, String> concat = (a, b) -> a + b;
+    out.println(concat.apply("hello", " world!"));
   }
 
 }

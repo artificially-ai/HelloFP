@@ -53,8 +53,8 @@ public class MyFunction {
 
   private void exercise1() {
     // Using compose: square and then divide by three
-    Function<Double, Double> third = i -> i.doubleValue() / 3;
-    Function<Double, Double> square = i -> i * i;
-    out.println(third.compose(square).apply(6D));
+    Function<Integer, Double> third = i -> i.doubleValue() / 3;
+    Function<Integer, Integer> square = i -> i * i;
+    out.println(third.compose(square).apply(6));
   }
 }
