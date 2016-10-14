@@ -24,6 +24,4 @@ public class MyConsumer {
     names.accept("Deepthi");
     names.accept("Alex");
   }
-
-
 }
